@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.canvas {
+	border: 1px solid #000;
+	box-shadow: 5px 5px 5px #ccc;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -155px;
+	margin-top: -160px;
+}
+
+.btn {
+	margin: 20px;
+	display: inline-block;
+	position: absolute;
+	border-radius: 5px;
+	top: 25%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -15px;
+	height: 30px;
+	width: 100px; 
+	cursor: pointer;
+	font-weight: bold;
+}
+.btn:hover {
+	border-color: #f00;
+	background-color: #f00;
+	color: #fff;
+}
+.score {
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	top: 25%;
+	left: 75%;
+	margin-left: -50px;
+	margin-top: -15px;
+}
